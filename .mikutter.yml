@@ -5,7 +5,7 @@ depends:
   plugin:
   - command
   - gui
-version: 0.0.2
+version: 0.0.3
 author: moguno
 name: mikutter-command-quote-hashtag
 description: "つぶやきからハッシュタグを引用するコマンドを追加します。"
