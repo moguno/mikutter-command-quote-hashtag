@@ -1,0 +1,11 @@
+---
+slug: :mikutter-command-quote-hashtag
+depends:
+  mikutter: 3.3.0
+  plugin:
+  - command
+  - gui
+version: 0.0.1
+author: moguno
+name: mikutter-command-quote-hashtag
+description: "つぶやきからハッシュタグを引用するコマンドを追加します。"
