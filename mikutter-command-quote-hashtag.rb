@@ -13,7 +13,7 @@ Plugin.create(:"mikutter-command-quote-hashtag") {
     message = opt.messages[0][:entities][:hashtags].map { |_| "\##{_[:text]}" }.join(" ")
     
     postbox = Plugin::GUI::Postbox.instance
-    postbox.options = {header: message, delegate_other: false}
+    postbox.options = {footer: message, delegate_other: false}
     Plugin::GUI::Window.instance(:default) << postbox
   }
 }
